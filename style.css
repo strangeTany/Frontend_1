@@ -1,0 +1,79 @@
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: #fff0d9;
+    display: flex;
+    border-bottom: 5px solid #ffd391;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    
+  }
+  
+  /* Change background color of buttons on hover */
+  /* .tab button:hover {
+    background-color: #ffe3b9;
+    
+  } */
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ffd391;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    /* border: 3px solid #ffd391; */
+    border-top: none;
+    text-align: center;
+    animation: fadeEffect 1.2s; /* Fading effect takes 1 second */
+  }
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  .contact_icons {
+    float: left;
+    width: 25px;
+    height: auto;
+  }
+  .contacts {
+    width: 125px;
+    padding: 7px 10px;
+    border: none;
+    background-color: #efefef;
+  }
+  .contacts_name{
+    font-size: 11pt;
+  }
+  .contacts_content{
+    
+    float:inline-start;
+    display: contents;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .contacts_content button:hover{
+    background-color: aliceblue;
+  }
+
+  #About{
+    text-align: left;
+  }

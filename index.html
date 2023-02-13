@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tany's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./slider.css"/>
+    <script src="./script.js"></script>
+    <script src="./slider.js"></script>
+</head>
+<body>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'About')" id="defaultOpen">About me</button>
+        <button class="tablinks" onclick="openTab(event, 'Portfolio')">Portfolio</button>
+        <button class="tablinks" onclick="openTab(event, 'Contacts')">Contacts</button>
+      </div>
+      
+      <!-- Tab content -->
+      <div id="About" class="tabcontent">
+        <h3>About me</h3>
+        <p>My name is Tatiana Ivshina. I am 3'd year bachelor student in Innopolis University in Data Science track.
+            I am very interested in everything connected with art
+        </p>
+        <h3>Work Experience</h3>
+        <ul>
+            <li>
+                <p>
+                    <p style="font-size: 13pt"><b>Innopolis Gamedev Club </b></p>
+                    <b>General artist (06.21-07.22)</b> <br>
+                    Created the art part of hypercasual and hybridcasual games: setup concept art scenes in Unity; 3D modeling with Blender; UI creation with Adobe Illustrator
+                </p>
+            </li>
+            <li>
+                <p>
+                    <p style="font-size: 13pt"><b>Playrix</b></p>
+                    <b>Technical Designer (08.22-now)</b> <br>
+                    Move UI and art to engine. Create base logic of elements behaviour. Optimizing resources in game. 
+                </p>
+            </li>
+          </ul>
+      </div>
+      
+      <div id="Portfolio" class="tabcontent">
+        <h3>Graphical Designer</h3>
+        <div class="row small">
+            <div class="imagegroup" style="animation-delay: 1s;">
+               <img class="work" src="./images/poster1.png">
+               <img class="work" src="./images/poster2.PNG">
+               <img class="work" src="./images/poster3.PNG">
+               <img class="work" src="./images/stickers.png">
+            </div>
+          </div>
+        <h3>3D Modeller</h3>
+        <div class="row small">
+            <div class="imagegroup" style="animation-delay: 1s;">
+               <img class="work" src="./images/steve.png">
+               <img class="work" src="./images/craft.png">
+               <img class="work" src="./images/monsters.png">
+            </div>
+        </div>
+        <h3>2D Artist</h3>
+        <div class="row small">
+            <div class="imagegroup" style="animation-delay: 1s;">
+               <img class="work" src="./images/coffee_set.PNG">
+               <img class="work" src="./images/girl_in_cafe.PNG">
+               <img class="work" src="./images/dead_fish.jpeg">
+               <img class="work" src="./images/me.PNG">
+            </div>
+        </div>
+      </div>
+      
+      <div id="Contacts" class="tabcontent">
+        <h3>Contact me</h3>
+        <div class="contacts_content">
+        <button class="contacts" onclick="location.href='https://t.me/strange_tany'" type="button">
+            <img src="./images/telegram.png" class="contact_icons">
+            <div class="contacts_name">
+                Telegram
+            </div>
+        </button> 
+        </div>
+        <div class="contacts_content">
+            <button class="contacts" onclick="location.href='https://instagram.com/strangetany?igshid=YmMyMTA2M2Y='" type="button">
+                <img src="./images/instagram.png" class="contact_icons">
+                <div class="contacts_name">
+                    Instagram
+                </div>
+            </button> 
+        </div>
+        <div class="contacts_content">
+            <button class="contacts" onclick="location.href='mailto: strangetany@gmail.com'" type="button">
+                <img src="./images/gmail.png" class="contact_icons">
+                <div class="contacts_name">
+                    E-Mail
+                </div>
+            </button> 
+        </div>
+        <div class="contacts_content">
+            <button class="contacts" onclick="location.href='tel: +79021503786'" type="button">
+                <img src="./images/phone.png" class="contact_icons">
+                <div class="contacts_name">
+                    Phone
+                </div>
+            </button> 
+        </div>
+        <h3>Portfolio</h3>
+        <div class="contacts_content">
+            <button class="contacts" onclick="location.href='https://strange_tany.artstation.com/'" type="button">
+                <img src="./images/artstation.png" class="contact_icons">
+                <div class="contacts_name">
+                    Artstation
+                </div>
+            </button> 
+        </div>
+        <div class="contacts_content">
+            <button class="contacts" onclick="location.href='https://github.com/strangeTany'" type="button">
+                <img src="./images/github.png" class="contact_icons">
+                <div class="contacts_name">
+                    GitHub
+                </div>
+            </button> 
+        </div>
+      </div>
+
+</body>
+</html>
