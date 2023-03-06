@@ -1,0 +1,32 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "html-validator --quiet",
+    "tsc": "tsc",
+    "build": "rollup --config rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strangeTany/Frontend_1.git"
+  },
+  "author": "Tany",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/strangeTany/Frontend_1/issues"
+  },
+  "homepage": "https://github.com/strangeTany/Frontend_1#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.18.0",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5",
+    "w3c-html-validator": "^1.3.2"
+  }
+}
