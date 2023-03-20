@@ -8,6 +8,7 @@
 	<main>
 		<slot />
 	</main>
+	<footer>made by strange.tany</footer>
 </div>
 
 <style>
